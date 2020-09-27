@@ -1,7 +1,7 @@
 /**
  * Thread creation: Implements Runnable
  */
-public class MultithreadingIntro {
+public class MultithreadingIntro1 {
     public static void main(String[] args) {
         System.out.println("Name of main thread: "+Thread.currentThread().getName());
 

@@ -14,7 +14,6 @@ public class MultithreadingJoin {
             System.out.println("Thread interrupted");
         }
         t2.start();
-
     }
 }
 

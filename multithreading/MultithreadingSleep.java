@@ -5,8 +5,10 @@ public class MultithreadingSleep {
     public static void main(String[] args) {
         System.out.println("Name of main thread: "+Thread.currentThread().getName());
 
-        Thread t1 = new Thread(new NumberPrinter(), "Task1");
-        Thread t2 = new Thread(new NumberPrinter(), "Task2");
+        NumberPrinter printer = new NumberPrinter();
+
+        Thread t1 = new Thread(printer, "Task1");
+        Thread t2 = new Thread(printer, "Task2");
         t1.start();
         t2.start();
 

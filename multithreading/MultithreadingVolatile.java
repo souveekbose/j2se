@@ -21,8 +21,9 @@ public class MultithreadingVolatile implements Runnable{
     }
 
     public void run() {
+        int i=0;
         while(!flag) {
-            System.out.println("Num is zero");
+            System.out.println(i++ + " Num is zero");
             Thread.yield();
         }
         System.out.println("Number: "+num);

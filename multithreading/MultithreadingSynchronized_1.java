@@ -9,17 +9,17 @@ public class MultithreadingSynchronized_1 {
         Func1Runner fr1 = new Func1Runner(task);
         Func2Runner fr2 = new Func2Runner(task);
 
-        //Thread t1 = new Thread(fr1, "T1");
+        Thread t1 = new Thread(fr1, "T1");
         //Thread t2 = new Thread(fr1, "T2");
         //Thread t3 = new Thread(fr1, "T3");
         Thread t4 = new Thread(fr2, "T4");
-        Thread t5 = new Thread(fr2, "T5");
+        //Thread t5 = new Thread(fr2, "T5");
         //Thread t6 = new Thread(fr2, "T6");
-        //t1.start();
+        t1.start();
         //t2.start();
         //t3.start();
         t4.start();
-        t5.start();
+        //t5.start();
         //t6.start();
 
     }

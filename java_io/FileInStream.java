@@ -5,7 +5,7 @@ import java.io.*;
 public class FileInStream {
     public static void main(String[] args) {
 
-        try(FileInputStream fin = new FileInputStream("java.txt")) {
+        try(FileInputStream fin = new FileInputStream("javaout.txt")) {
             int size = fin.available();
             System.out.println("File bytes: "+size);
 

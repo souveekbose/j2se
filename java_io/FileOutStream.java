@@ -18,3 +18,6 @@ public class FileOutStream {
         }
     }
 }
+
+// Java 7: try with resources
+//Classes which implement AutoCloseable interface

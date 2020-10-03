@@ -15,7 +15,7 @@ public class StringDemo {
         // size of source string
         System.out.println("Size of source: "+source.length());
 
-        //getChar
+        //charAt
         System.out.println("Last character of target string: "+ target.charAt(target.length()-1));
 
         //getBytes

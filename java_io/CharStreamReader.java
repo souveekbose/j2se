@@ -5,7 +5,7 @@ import java.io.*;
 public class CharStreamReader {
     public static void main(String[] args) {
 
-        try(FileReader fr = new FileReader("java.txt")) {
+        try(FileReader fr = new FileReader("javachar.txt")) {
 
             int c;
             while((c = fr.read()) != -1) {

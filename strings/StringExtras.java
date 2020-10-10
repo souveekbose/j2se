@@ -7,8 +7,8 @@ public class StringExtras {
         String s1 = "Hello ";
         String s2 = "World";
 
-        System.out.println("Concatenating s2 after String s1: "+s1.concat(s2));
-        System.out.println("after concatenations String s1: "+s1);
+        System.out.println("Concatenating s2 after String s1: " + s1.concat(s2));
+        System.out.println("after concatenations String s1: " + s1);
 
         StringBuffer s3 = new StringBuffer("Hey ");
         System.out.println("Concatenating s2 after StringBuffer s3: "+s3.append(s2));
